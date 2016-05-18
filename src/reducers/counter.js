@@ -13,7 +13,6 @@ export default function counter(
 ): CounterState {
   switch (action.type) {
     case EXECUTE_INCREMENT: {
-      console.log(action)
       return { ...state, num: state.num + action.payload.num }
     }
     case RESET: {
