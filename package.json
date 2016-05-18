@@ -4,7 +4,6 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "postinstall": "touch .env",
     "flow": "flow",
     "type": "npm run flow",
     "lint": "eslint src",
