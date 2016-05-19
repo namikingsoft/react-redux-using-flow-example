@@ -1,7 +1,7 @@
 // @flow
 import React, { Component } from "react"
 import { connect } from "react-redux"
-import { actions } from "actions/counter"
+import * as actions from "actions/counter"
 import Button from "components/Button"
 import type { CounterState } from "types/Counter"
 import type { Action } from "types/Action"
