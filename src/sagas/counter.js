@@ -1,6 +1,6 @@
 // @flow
 import { take, put, call, fork } from "redux-saga/effects"
-import { REQUEST_INCREMENT, actions } from "actions/counter"
+import { REQUEST_INCREMENT, executeIncrement } from "actions/counter"
 import type { PayloadAction as PAction } from "types/Action"
 import type { CounterPayload } from "types/Counter"
 
@@ -12,7 +12,7 @@ export function* requestIncrement(): Generator<any, void, any> {
   for (;;) {
     const action: ?PAction<CounterPayload> = yield take(REQUEST_INCREMENT)
     yield call(() => delay(1000))
-    yield put(actions.executeIncrement(action ? action.payload : { num: 0 }))
+    yield put(executeIncrement(action ? action.payload : { num: 0 }))
   }
 }
 
