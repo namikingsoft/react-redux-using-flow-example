@@ -1,3 +1,5 @@
+// @flow
+
 export interface CounterState {
   num: number;
 }
