@@ -2,8 +2,8 @@
 
 export interface Action {
   type: string;
+  error?: boolean;
   meta?: any;
-  error?: Error;
 }
 
 export interface PayloadAction<T> extends Action {
