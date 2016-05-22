@@ -15,13 +15,13 @@ class CounterPage extends Component {
   handlePressIncrement() {
     const { dispatch } = this.props
     const num = parseInt(this.refs.count.value || 1, 10)
-    dispatch(actions.executeIncrement({ num }))
+    dispatch(actions.executeIncrement(num))
   }
 
   handlePressIncrementDelay() {
     const { dispatch } = this.props
     const num = parseInt(this.refs.count.value || 1, 10)
-    dispatch(actions.requestIncrement({ num }))
+    dispatch(actions.requestIncrement(num))
   }
 
   handlePressReset() {
