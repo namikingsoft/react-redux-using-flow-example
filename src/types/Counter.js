@@ -10,5 +10,5 @@ export interface IncrementPayload {
 }
 
 export interface IncrementAction extends PayloadAction<IncrementPayload> {}
-export interface DeleteAction extends Action {}
-export type CounterAction = IncrementAction & DeleteAction
+export interface ResetAction extends Action {}
+export type CounterAction = IncrementAction & ResetAction

@@ -1,5 +1,5 @@
 // @flow
-import type { IncrementAction, DeleteAction } from "types/Counter"
+import type { IncrementAction, ResetAction } from "types/Counter"
 
 export const REQUEST_INCREMENT = "COUNTER__REQUEST_INCREMENT"
 export const EXECUTE_INCREMENT = "COUNTER__EXECUTE_INCREMENT"
@@ -13,6 +13,6 @@ export function executeIncrement(num: number): IncrementAction {
   return { type: EXECUTE_INCREMENT, payload: { num } }
 }
 
-export function reset(): DeleteAction {
+export function reset(): ResetAction {
   return { type: RESET }
 }
