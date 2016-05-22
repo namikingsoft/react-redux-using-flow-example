@@ -1,4 +1,4 @@
-Sample of react-redux-saga-flow [![Build Status][travis-badge]][travis-url]
+Example of React Redux using flow [![Build Status][travis-badge]][travis-url]
 ==============================
 This is sample using the following modules.
 
