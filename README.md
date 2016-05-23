@@ -21,5 +21,5 @@ npm start
 open http://localhost:1234
 ```
 
-[travis-badge]: https://travis-ci.org/namikingsoft/react-redux-saga-flow-sample.svg?branch=master
-[travis-url]: https://travis-ci.org/namikingsoft/react-redux-saga-flow-sample
+[travis-badge]: https://travis-ci.org/namikingsoft/react-redux-using-flow-example.svg?branch=master
+[travis-url]: https://travis-ci.org/namikingsoft/react-redux-using-flow-example
