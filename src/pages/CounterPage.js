@@ -58,5 +58,4 @@ class CounterPage extends Component {
 
 export default connect(
   ({ counter }) => ({ counter }),
-  dispatch => ({ dispatch }),
 )(CounterPage)
