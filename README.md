@@ -14,12 +14,18 @@ This is sample using the following modules.
 Get Started
 ------------------------------
 ```
-git clone https://github.com/namikingsoft/react-redux-saga-flow-sample.git
-cd react-redux-saga-flow-sample
+git clone https://github.com/namikingsoft/react-redux-using-flow-example.git
+cd react-redux-using-flow-example
 npm install
 npm start
 open http://localhost:1234
 ```
+
+
+Reference Post
+------------------------------
+[静的型チェッカーflowでReact+Reduxのサンプルアプリを組んでみた](http://blog.namiking.net/post/2016/05/react-redux-using-flow-example/)
+
 
 [travis-badge]: https://travis-ci.org/namikingsoft/react-redux-using-flow-example.svg?branch=master
 [travis-url]: https://travis-ci.org/namikingsoft/react-redux-using-flow-example
