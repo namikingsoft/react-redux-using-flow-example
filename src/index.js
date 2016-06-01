@@ -4,7 +4,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { Provider } from "react-redux"
 import { createStore, applyMiddleware } from "redux"
-import { Router, Route, IndexRoute, hashHistory } from "react-router"
+import { Router, Route, IndexRoute, browserHistory } from "react-router"
 import createSagaMiddleware from "redux-saga"
 import reducer from "reducers"
 import saga from "sagas"
@@ -19,7 +19,7 @@ sagaMiddleware.run(saga)
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={hashHistory}>
+    <Router history={browserHistory}>
       <Route path="/" component={LayoutContainer}>
         <IndexRoute component={TopPage} />
         <Route path="Hello/:name" component={HelloPage} />
